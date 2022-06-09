@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+}
+.bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  height: 100vh;
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+  overflow-y: scroll;
+  width: 100vw;
+}
+.fixed-nav {
+  transition: 0.4s;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  background-color: #000000aa;
+  z-index: 1;
+}

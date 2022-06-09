@@ -1,0 +1,18 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.col-4 {
+  flex: calc(33.33% - 18.67px) 0 0;
+}
+@media screen and (max-width: 836px) {
+  .row {
+    justify-content: center;
+  }
+  .col-4 {
+    margin-right: 10px;
+    min-width: 100%;
+    height: auto;
+  }
+}

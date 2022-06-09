@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useRef } from "react";
+import Hero from "./components/Hero";
+import ProjectSection from "./components/ProjectSection";
 
-function App() {
+export default function App() {
+  const wrapper = useRef();
+
+  const heroContainerRef = useRef();
+  const headerContainerRef = useRef();
+  const refs = useRef({ heroContainerRef, headerContainerRef });
+
+  function handleScroll() {
+    const wrapperHeight = wrapper.current.scrollTop;
+    const heroContainerHeight = heroContainerRef.current.offsetHeight;
+    if (wrapperHeight > heroContainerHeight - 0.5) {
+      headerContainerRef.current.classList.add("fixed-nav");
+    } else {
+      headerContainerRef.current.classList.remove("fixed-nav");
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper" onScroll={handleScroll} ref={wrapper}>
+      <Hero ref={refs} />
+      <ProjectSection />
     </div>
   );
 }
-
-export default App;
