@@ -15,7 +15,6 @@
   box-shadow: 0px 0px 2px #c0c0c0;
   position: relative;
   overflow: hidden;
-  background-size: contain;
 }
 #hero-blob {
   position: absolute;
@@ -29,7 +28,7 @@
   color: #fff;
 }
 .title > h1 {
-  margin-top: 83px;
+  margin-top: 90px;
   margin-bottom: 0px;
   font-size: 65px;
 }
@@ -45,15 +44,52 @@
     background-size: cover;
   }
   #hero-blob {
-    width: 700px;
+    width: 50%;
     height: 500px;
     transform: translate(25%, 8%);
+  }
+  .title {
+    margin-top: 200px;
   }
   .title > h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-    font-size: 128px;
+    font-size: 10vw;
     margin-top: 100px;
-    /* text-align: center; */
+  }
+  #hero-blob {
+    transform: translate(40%, 40%);
+  }
+}
+@media screen and (min-width: 913px) {
+  .title {
+    margin-top: 0px;
+  }
+  #hero-blob {
+    transform: translate(21%, 12%);
+    animation: heroblob 1.5s;
+  }
+  .title {
+    animation: title 1.5s;
+  }
+}
+@keyframes title {
+  from {
+    transform: translateY(100px);
+    opacity: 0.1;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes heroblob {
+  from {
+    transform: translate(21%, 32%);
+    opacity: 0.1;
+  }
+  to {
+    transform: translate(21%, 12%);
+    opacity: 1;
   }
 }

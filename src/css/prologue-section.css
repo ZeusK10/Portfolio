@@ -1,0 +1,65 @@
+.prologue-section {
+  scroll-snap-align: start;
+}
+.prologue-section > h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.prologue-section > h4 {
+  text-align: center;
+  font-style: italic;
+  margin: 0px;
+}
+.prologue-container {
+  padding-top: 40px;
+}
+.prologue-card {
+  height: auto;
+  max-width: 300px;
+  transition: 1s;
+}
+.prologue-icon {
+  height: 100px;
+  width: 100px;
+  background-color: #faebd7;
+  border-radius: 50%;
+  margin: auto;
+  transition: 1s;
+  padding: 20px;
+}
+.prologue-icon > .icn {
+  width: 100%;
+  height: 100%;
+}
+.prologue-content {
+  margin: auto;
+  padding: 50px 10px 10px 10px;
+  position: relative;
+  top: -45px;
+  z-index: -1;
+  transition: 0.4s ease-in-out;
+  outline: 0.2px solid #c0c0c000;
+  box-shadow: -1px 10px 50px #c0c0c0;
+}
+.prologue-content > p {
+  transform: scale(0.9);
+}
+.prologue-content > h1,
+.prologue-content > p {
+  margin: 0px;
+  text-align: center;
+  transition: 1s;
+}
+
+@media screen and (min-width: 776px) {
+  .prologue-card:hover .prologue-content {
+    box-shadow: -1px 10px 20px #c0c0c0;
+    outline: 0.2px solid #c0c0c022;
+  }
+  .prologue-card:hover {
+    transform: scale(1.05);
+  }
+  .prologue-card:hover .prologue-icon {
+    transform: scale(1.1) translateY(-10px);
+  }
+}

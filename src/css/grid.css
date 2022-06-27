@@ -5,14 +5,24 @@
 }
 .col-4 {
   flex: calc(33.33% - 18.67px) 0 0;
+  margin-right: 18px;
 }
-@media screen and (max-width: 836px) {
+.col-6 {
+  flex: calc(50% - 18.67px) 0 0;
+}
+.container {
+  max-width: 1024px;
+  margin: auto;
+  padding: 10px;
+}
+@media screen and (max-width: 776px) {
   .row {
-    justify-content: center;
+    justify-content: center !important;
   }
-  .col-4 {
-    margin-right: 10px;
+  .col-4,
+  .col-6 {
     min-width: 100%;
     height: auto;
+    margin-right: 0px;
   }
 }

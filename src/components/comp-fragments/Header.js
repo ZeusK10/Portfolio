@@ -15,6 +15,8 @@ function Header(props, ref) {
     z.current.classList.toggle("z");
   }
 
+  const resume = require("../../resume/nirajkarki.pdf");
+
   return (
     <header className="header-container" ref={ref}>
       <div className="header-resp">
@@ -25,22 +27,18 @@ function Header(props, ref) {
           <div id="b-3" className="bars" ref={z}></div>
         </div>
       </div>
-      <nav className="nav-container" ref={navToggle}>
+      <nav className="nav-container" ref={navToggle} onClick={handleClick}>
         <ul>
           <li>
-            <a href="https://www.w3schools.com/css/css3_transitions.asp">
-              PORTFOLIO
-            </a>
+            <a href="#project-section">PROJECTS</a>
           </li>
-          <li>
-            <a href="https://www.w3schools.com/css/css3_transitions.asp">
+          <li title="download resume">
+            <a href={resume} download>
               RESUME
             </a>
           </li>
           <li>
-            <a href="https://www.w3schools.com/css/css3_transitions.asp">
-              ABOUT
-            </a>
+            <a href="#about-section">ABOUT</a>
           </li>
         </ul>
       </nav>
