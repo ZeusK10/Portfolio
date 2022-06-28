@@ -6,7 +6,7 @@ export default function PrologueSection() {
   const skill = require("../image/icons/programming-flag.png");
   const hobby = require("../image/icons/hobbies.png");
   return (
-    <section className="prologue-section" id="about-section">
+    <section className="prologue-section">
       <Wave />
       <h1>Prologue</h1>
       <h4>Welcome to my portfolio website</h4>
@@ -23,11 +23,8 @@ export default function PrologueSection() {
               ></div>
             </div>
             <div className="prologue-content">
-              <h1>Education</h1>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Accusantium laudantium laboriosam commodi libero quos modi non .
-              </p>
+              <h1>Education & training</h1>
+              <p>GameDevHQ Professional Game Developer Bootcamp</p>
             </div>
           </div>
           <div className="prologue-card col-4">
@@ -43,8 +40,8 @@ export default function PrologueSection() {
             <div className="prologue-content">
               <h1>Programming Skill</h1>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Accusantium laudantium laboriosam commodi libero quos modi non .
+                Unity2d/3d, C#, Mobile Development, Oriented Programming Object,
+                Photoshop
               </p>
             </div>
           </div>
@@ -60,10 +57,7 @@ export default function PrologueSection() {
             </div>
             <div className="prologue-content">
               <h1>Hobbies</h1>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Accusantium laudantium laboriosam commodi libero quos modi non .
-              </p>
+              <p>singing, dancing, eating, sleeping, blahblah</p>
             </div>
           </div>
         </div>

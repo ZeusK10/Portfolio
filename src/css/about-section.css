@@ -1,9 +1,25 @@
 .about-section {
+  scroll-snap-align: start;
   background-color: #000;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.about-section-container {
+  max-width: 1400px;
+  margin: auto;
+}
+.about-section-title-container {
+  margin: auto;
+}
+.about-section-title {
+  background-color: #a60000;
+  border-radius: 5px;
+  /* box-shadow: 10px 10px 5px #fff; */
+  transition: 0.5s;
 }
 .about-section h1 {
-  margin: 0px;
+  margin: 1px 0px;
   padding: 20px;
   color: #fff;
   font-size: 1.5rem;
@@ -12,6 +28,7 @@
   text-align: center;
   font-size: 26px;
 }
+
 .about-content {
   padding: 20px;
   display: flex;
@@ -24,11 +41,11 @@
   margin: 0px 50px;
 }
 .me {
-  min-width: 400px;
-  min-height: 400px;
+  width: 400px;
+  height: 400px;
   background-color: aliceblue;
   border-radius: 50%;
-  background-image: url("../image/Background.png");
+  background-image: url("../image/me.jpg");
 }
 .about-icons-container {
   height: 30px;
@@ -50,5 +67,9 @@
 @media screen and (max-width: 776px) {
   .about-content {
     flex-direction: column;
+  }
+  .me {
+    width: 300px;
+    height: 300px;
   }
 }

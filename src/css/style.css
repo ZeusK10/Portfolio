@@ -19,14 +19,6 @@ body {
   overflow-y: scroll;
   width: 100vw;
 }
-.wrapper::-webkit-scrollbar {
-  width: 10px;
-  background-color: #000;
-}
-.wrapper::-webkit-scrollbar-thumb {
-  background: #ffffffaa;
-  border-radius: 10px;
-}
 
 .fixed-nav {
   height: 65px !important;
@@ -50,4 +42,15 @@ body {
   transform: rotate(180deg);
   position: relative;
   top: 10px;
+}
+
+@media screen and (min-width: 776px) {
+  .wrapper::-webkit-scrollbar {
+    width: 10px;
+    background-color: #000;
+  }
+  .wrapper::-webkit-scrollbar-thumb {
+    background: #ffffffaa;
+    border-radius: 10px;
+  }
 }

@@ -12,52 +12,33 @@ export default [
   },
   {
     id: 2,
-    title: "dungeon escape",
-    coverImg: "de.jpg",
+    title: "2D Galaxy Space Shooter",
+    coverImg: "2d_space_shooter_mainmenu.png",
     date: "August, 2021",
-    gamelink: "https://zeusk10.itch.io/25d-platformer",
+    gamelink: "https://zeusk10.itch.io/2d-space-shooter",
     intro:
-      "Louda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo vero",
-    desc: "Louda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo vero",
+      "A 2D space shooter playable on PC that is similar to classic retro arcade games like Galaga. ",
+    desc: "I finished and completed the 2D Game Development Course and developed all major gaming mechanics from scratch from player movement, enemies, spawn managers, powers, speed boosts, powers, effects, menus, UI, and more by using C# and Unity3D.  The project took 4 weeks for me to complete from start to finish.",
   },
   {
     id: 3,
-    title: "dungeon escape",
-    coverImg: "2dplatformer.png",
+    title: "The Great Fleece",
+    coverImg: "the-great-fleece.png",
     date: "August, 2021",
-    gamelink: "https://zeusk10.itch.io/25d-platformer",
+    gamelink: "https://zeusk10.itch.io/the-great-fleece",
     intro:
-      "Louda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo vero",
-    desc: "Louda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo vero",
+      "A 3D playable stealth game that focuses on cinematography, stealth and diversion.",
+    desc: "I finished and completed this Stealth game and Cinematography course and developed all major gaming mechanics from scratch going from creating cinemachine virtual cameras aligning them to perfectly fit the cutscene and developed some cool looking cutscene using the Timeline feature of unity. The project took 1 week to complete from start to finish.",
   },
   {
     id: 4,
     title: "dungeon escape",
-    coverImg: "2dplatformer.png",
+    coverImg: "de.jpg",
     date: "August, 2021",
-    gamelink: "https://zeusk10.itch.io/25d-platformer",
+    gamelink:
+      "https://play.google.com/store/apps/details?id=com.ZeusKGames.DungeonEscape",
     intro:
-      "Louda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo vero",
-    desc: "Louda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo vero",
-  },
-  {
-    id: 5,
-    title: "dungeon escape",
-    coverImg: "2dplatformer.png",
-    date: "August, 2021",
-    gamelink: "https://zeusk10.itch.io/25d-platformer",
-    intro:
-      "Louda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo vero",
-    desc: "Louda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo vero",
-  },
-  {
-    id: 6,
-    title: "dungeon escape",
-    coverImg: "2dplatformer.png",
-    date: "August, 2021",
-    gamelink: "https://zeusk10.itch.io/25d-platformer",
-    intro:
-      "Louda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo vero",
-    desc: "Louda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo veroLouda ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laudantium laboriosam commodi libero quos modi non error nobis sequi iure cum perferendis at distinctio ea aspernatur quo, unde eligendi explicabo vero",
+      "A 2D game that demonstrates an understanding of 2D tile-map implementation, complex class inheritance, UI and shop implementations along with animation implementation and hit box manipulation.",
+    desc: "This game also serves as an example on how to implement Google Play advertisements and publishing to the Google Play Store.",
   },
 ];
