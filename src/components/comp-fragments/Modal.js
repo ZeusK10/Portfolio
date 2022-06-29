@@ -8,8 +8,11 @@ export default function Modal(props) {
     <>
       <div className="modal-overlay" />
       <div className="modal">
-        <button onClick={props.onClose} className="modal-close button-67">
-          x
+        <button
+          onClick={props.onClose}
+          className="modal-close button-67 medium-font"
+        >
+          <span>x</span>
         </button>
         <div className="modal-container">
           <div className="modal-image-container">
