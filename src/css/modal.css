@@ -23,13 +23,7 @@
   margin: auto;
   border-radius: 5px;
 }
-.modal::-webkit-scrollbar {
-  width: 10px;
-}
-.modal::-webkit-scrollbar-thumb {
-  background: #000000aa;
-  border-radius: 10px;
-}
+
 .modal-container {
   display: flex;
   align-items: center;
@@ -49,10 +43,6 @@
 }
 .modal-image:hover {
   box-shadow: 0px 0px 10px #000;
-}
-.modal-image > img {
-  width: 100%;
-  height: 100%;
 }
 .modal-title {
   width: 40%;
@@ -88,16 +78,39 @@
   font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 20px;
   margin-top: 20px;
-  /* color: #fff; */
+}
+.modal-close {
+  position: sticky !important;
+  top: 0;
+  left: 100%;
+  z-index: 10;
 }
 @media screen and (max-width: 776px) {
   .modal {
     width: 100%;
     height: 100vh;
+    padding: 0px;
+  }
+  .modal h1,
+  .modal h4 {
+    margin: 10px;
+  }
+  .modal p {
+    padding: 10px;
+    position: relative;
+    top: -40px;
   }
   .modal-container {
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    top: -40px;
+  }
+  .modal-close {
+    position: sticky !important;
+    top: 0;
+    left: 100%;
+    z-index: 10;
   }
   .modal-image {
     height: 300px;
@@ -113,22 +126,8 @@
     padding: 20px 0px;
     text-align: center;
   }
-  .modal-close {
-    position: relative;
-    left: 90%;
-  }
 }
 
-.modal-close {
-  position: sticky !important;
-  top: 0;
-  left: 100%;
-  z-index: 10;
-  /* transform: scale(0); */
-}
-.modal-close > span {
-  font-family: Arial, Helvetica, sans-serif;
-}
 @media screen and (min-width: 776px) {
   .modal-container {
     animation-name: modal;
@@ -139,6 +138,13 @@
   }
   .modal-close {
     animation: modelclose 0.6s linear;
+  }
+  .modal::-webkit-scrollbar {
+    width: 10px;
+  }
+  .modal::-webkit-scrollbar-thumb {
+    background: #000000aa;
+    border-radius: 10px;
   }
 }
 @keyframes modelclose {

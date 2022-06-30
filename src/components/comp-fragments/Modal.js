@@ -18,13 +18,13 @@ export default function Modal(props) {
   if (!props.open) return null;
   return ReactDOM.createPortal(
     <>
-      <div className="modal-overlay" />
+      <div className="modal-overlay" onClick={props.onClose} />
       <div className="modal">
         <button
           onClick={props.onClose}
           className="modal-close button-67 medium-font"
         >
-          <span>x</span>
+          x
         </button>
         <div className="modal-container">
           <div className="modal-image-container">
