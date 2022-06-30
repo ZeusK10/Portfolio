@@ -51,6 +51,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  overflow: hidden;
 }
 
 .button-49:after {
