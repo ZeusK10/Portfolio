@@ -17,24 +17,28 @@ export default function AboutSection() {
               <h1>&copy; Niraj karki</h1>
               <div className="about-icons-container">
                 <a
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  href="https://www.facebook.com/ZeusKGames"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <FacebookIcon className="about-icons" title="facebook" />
                 </a>
                 <a
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  href="https://www.instagram.com/zeuskenneth/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <InstaIcon className="about-icons" title="instagram" />
                 </a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <a
+                  href="https://github.com/zeusk10"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <GithubIcon className="about-icons" title="github" />
                 </a>
                 <a
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  href="https://zeusk10.medium.com/"
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -17,21 +17,6 @@ export default function PrologueSection() {
               <div
                 className="icn"
                 style={{
-                  backgroundImage: `url(${edu})`,
-                  backgroundSize: "contain",
-                }}
-              ></div>
-            </div>
-            <div className="prologue-content">
-              <h1>Education & training</h1>
-              <p>GameDevHQ Professional Game Developer Bootcamp</p>
-            </div>
-          </div>
-          <div className="prologue-card col-4">
-            <div className="prologue-icon">
-              <div
-                className="icn"
-                style={{
                   backgroundImage: `url(${skill})`,
                   backgroundSize: "contain",
                 }}
@@ -50,6 +35,22 @@ export default function PrologueSection() {
               <div
                 className="icn"
                 style={{
+                  backgroundImage: `url(${edu})`,
+                  backgroundSize: "contain",
+                }}
+              ></div>
+            </div>
+            <div className="prologue-content">
+              <h1>Education & training</h1>
+              <p>ISMT,GameDevHQ Professional Game Developer Bootcamp</p>
+            </div>
+          </div>
+
+          <div className="prologue-card col-4">
+            <div className="prologue-icon">
+              <div
+                className="icn"
+                style={{
                   backgroundImage: `url(${hobby})`,
                   backgroundSize: "contain",
                 }}
@@ -57,7 +58,7 @@ export default function PrologueSection() {
             </div>
             <div className="prologue-content">
               <h1>Hobbies</h1>
-              <p>singing, dancing, eating, sleeping, blahblah</p>
+              <p>Anime, Manga, Writting, Reading.</p>
             </div>
           </div>
         </div>

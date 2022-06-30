@@ -3,6 +3,18 @@ import ReactDOM from "react-dom";
 
 export default function Modal(props) {
   const img = require(`../../image/${props.coverImg}`);
+  let gamelink;
+  if (props.gamelink) {
+    gamelink = (
+      <a href={props.gamelink}>
+        <button className="button-49">PLAY GAME</button>
+      </a>
+    );
+  }
+  let date;
+  if (props.date) {
+    date = <h4>-{props.date}</h4>;
+  }
   if (!props.open) return null;
   return ReactDOM.createPortal(
     <>
@@ -25,10 +37,8 @@ export default function Modal(props) {
           </div>
           <div className="modal-title">
             <h1>{props.title}</h1>
-
-            <a href={props.gamelink}>
-              <button className="button-49">play now</button>
-            </a>
+            {gamelink}
+            {date}
           </div>
         </div>
         <p>{props.intro}</p>

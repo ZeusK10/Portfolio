@@ -1,7 +1,7 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .col-4 {
   flex: calc(33.33% - 18.67px) 0 0;
