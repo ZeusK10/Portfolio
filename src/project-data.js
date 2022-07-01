@@ -4,6 +4,13 @@ export default [
     id: 1,
     title: "2.5D Platformer",
     coverImg: "2dplatformer.png",
+    img: [
+      "2dplatformer_2.png",
+      "2dplatformer_3.png",
+      "2dplatformer_4.png",
+      "2dplatformer_5.png",
+      "2dplatformer_6.png",
+    ],
     date: "August, 2021",
     gamelink: "https://zeusk10.itch.io/25d-platformer",
     intro:
@@ -14,6 +21,15 @@ export default [
     id: 2,
     title: "2D Galaxy Space Shooter",
     coverImg: "2d_space_shooter_mainmenu.png",
+    img: [
+      "space_shooter_2.png",
+      "space_shooter_3.png",
+      "space_shooter_4.png",
+      "space_shooter_5.png",
+      "space_shooter_6.png",
+      "space_shooter_7.png",
+      "space_shooter_8.png",
+    ],
     date: "May, 2021",
     gamelink: "https://zeusk10.itch.io/2d-space-shooter",
     intro:

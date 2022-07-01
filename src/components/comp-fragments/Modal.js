@@ -1,8 +1,27 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation } from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 export default function Modal(props) {
-  const img = require(`../../image/${props.coverImg}`);
+  const imgs = [];
+  imgs.push(require(`../../image/${props.coverImg}`));
+  if (props.img) {
+    props.img.forEach(function (elem) {
+      imgs.push(require(`../../image/${elem}`));
+    });
+  }
+  const slider = imgs.map((elem) => {
+    return (
+      <SwiperSlide key={elem}>
+        <img src={elem} alt="" className="modal-image" />
+      </SwiperSlide>
+    );
+  });
+
   let gamelink;
   if (props.gamelink) {
     gamelink = (
@@ -28,12 +47,19 @@ export default function Modal(props) {
         </button>
         <div className="modal-container">
           <div className="modal-image-container">
-            <div
-              className="modal-image bg"
-              style={{
-                backgroundImage: `url(${img})`,
+            <Swiper
+              slidesPerView={1}
+              spaceBetween={30}
+              // loop={true}
+              pagination={{
+                clickable: true,
               }}
-            ></div>
+              navigation={true}
+              modules={[Pagination, Navigation]}
+              className="mySwiper"
+            >
+              {slider}
+            </Swiper>
           </div>
           <div className="modal-title">
             <h1>{props.title}</h1>
